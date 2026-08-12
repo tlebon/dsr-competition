@@ -6,8 +6,15 @@ dist/
 wheels/
 *.egg-info
 
-# data
-/data
+# data - keep structure, ignore contents
+/data/**
+!/data/**/
+!/data/**/.gitkeep
+
+# models - keep folder, ignore trained models
+/models/**
+!/models/**/
+!/models/**/.gitkeep
 
 # Virtual environments
 .venv
