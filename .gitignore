@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# data
+/data
+
+# Virtual environments
+.venv
+
+# macOS
+.DS_Store
+
+# scratch
+/_to_delete
