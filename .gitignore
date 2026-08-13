@@ -10,6 +10,8 @@ wheels/
 /data/**
 !/data/**/
 !/data/**/.gitkeep
+!/data/cleaned/
+!/data/cleaned/**
 
 # models - keep folder, ignore trained models
 /models/**
