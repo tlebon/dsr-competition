@@ -10,10 +10,10 @@ wheels/
 /data/**
 !/data/**/
 !/data/**/.gitkeep
-!/data/sample
+!/data/sample/
+!/data/sample/**
 
 # models - keep folder, ignore trained models
-/models/**
 !/models/**/
 !/models/**/.gitkeep
 
