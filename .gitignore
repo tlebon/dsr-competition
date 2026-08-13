@@ -12,6 +12,8 @@ wheels/
 !/data/**/.gitkeep
 !/data/sample/
 !/data/sample/**
+!/data/cleaned/
+!/data/cleaned/**
 
 # models - keep folder, ignore trained models
 !/models/**/
@@ -24,4 +26,5 @@ wheels/
 .DS_Store
 
 # scratch
-/_to_delete
+.vscode
+
