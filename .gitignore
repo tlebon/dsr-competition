@@ -12,6 +12,8 @@ wheels/
 !/data/**/.gitkeep
 !/data/sample/
 !/data/sample/**
+# large local slices (keep out of git)
+/data/sample/train_six_month_slice.parquet
 !/data/cleaned/
 !/data/cleaned/**
 
