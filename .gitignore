@@ -19,6 +19,11 @@ wheels/
 !/models/**/
 !/models/**/.gitkeep
 
+# submissions - keep folder, ignore CSVs
+/submissions/*
+!/submissions/.gitkeep
+
+
 # Virtual environments
 .venv
 
