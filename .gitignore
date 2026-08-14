@@ -12,12 +12,19 @@ wheels/
 !/data/**/.gitkeep
 !/data/sample/
 !/data/sample/**
+# large local slices (keep out of git)
+/data/sample/train_six_month_slice.parquet
 !/data/cleaned/
 !/data/cleaned/**
 
 # models - keep folder, ignore trained models
 !/models/**/
 !/models/**/.gitkeep
+
+# submissions - keep folder, ignore CSVs
+/submissions/*
+!/submissions/.gitkeep
+
 
 # Virtual environments
 .venv
